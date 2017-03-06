@@ -27,7 +27,7 @@ import javax.xml.ws.ResponseWrapper;
 
 @WebService(targetNamespace = "http://service.ws.sample/", name = "Hello")
 public interface Hello {
-
+//fernando
     @WebResult(name = "return", targetNamespace = "")
     @RequestWrapper(localName = "sayHello", 
                     targetNamespace = "http://service.ws.sample/", 
